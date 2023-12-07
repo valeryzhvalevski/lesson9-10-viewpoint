@@ -417,6 +417,10 @@ main {
           color: white;
           font-size: 22px;
           font-weight: 500;
+          &:hover {
+            background: #1d8247;
+            transition: 0.5s;
+          }
         }
       }
       .questions__right-div {
@@ -485,15 +489,23 @@ footer {
       }
     }
     .all-rights {
-      color:#a8a8a8;
+      color: #a8a8a8;
       @media screen and (max-width: 378px) {
         display: none;
       }
     }
     .tel {
       border: 1px solid #a8a8a8;
-      color:#a8a8a8;
+      color: #a8a8a8;
       padding: 15px;
+      &:hover {
+        background-color: #fff;
+        transition: 0.5s;
+      }
+      a {
+        color: #a8a8a8;
+        padding: 15px 25px;
+      }
     }
   }
 }
